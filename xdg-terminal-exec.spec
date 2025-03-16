@@ -2,7 +2,7 @@ Summary:	Reference implementation for XDG Default Terminal Execution Specificati
 Summary(pl.UTF-8):	Implementacja referencyjna propozycji specifikacji XDG Default Terminal Execution
 Name:		xdg-terminal-exec
 Version:	0.12.3
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Applications
 #Source0Download: https://github.com/Vladimir-csp/xdg-terminal-exec/tags
@@ -10,6 +10,7 @@ Source0:	https://github.com/Vladimir-csp/xdg-terminal-exec/archive/v%{version}/%
 # Source0-md5:	d4c77776c379cf121aab4fd24ffeddd9
 URL:		https://github.com/Vladimir-csp/xdg-terminal-exec
 BuildRequires:	scdoc
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
